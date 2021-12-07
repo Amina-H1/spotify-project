@@ -1,2 +1,2 @@
-# spotify-project
-Group 4 project 1
+# Spotify-Project
+Group 4 Project 1
