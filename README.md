@@ -59,6 +59,86 @@ Thus, 54% of the variability in Loudness is explained by the variability in Ener
 Conclusion:
 We can conclude from this test that our results are significant as the r value is greater than the critical value, so we would reject the null hypothesis. Concluding that there is a relationship between Loudness of a track and the Energy of a track
 
+Graphical Representation of the relationship between loudness of track and its energy: [Scatter plot](https://github.com/Amina-H1/spotify-project/blob/main/images/loudness_energy.png).
+
+R squared: 0.5434088173021023 or 54%
+There is a Strong positive correlation between the loudness of a track to its energy, the r value is 0.7371626803508858
+
+[Treemap:](https://github.com/Amina-H1/spotify-project/blob/main/images/tree_map.png).
+A Treemap of the genre of the top 100 songs for Spotify.
+
+We intended on making this interactive, however the time we had was limited.
+To do this we would have had to create a multi-index Dataframe where we would have the first index as the main genres (Pop, Rap, Hip Hop and House and others) then have the other subgenres in the secondary index. 
+
+Genre: A visual representation of the [top genres](https://github.com/Amina-H1/spotify-project/blob/main/images/genre1.png) and [stream counts](https://github.com/Amina-H1/spotify-project/blob/main/images/genre2.png).
+
+### Findings 3: Tempo, Energy and Acousticness
+
+Tempo: The overall estimated tempo of a track in beats per minute (BPM).
+Energy:  Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity.
+Accousticness:  A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.
+
+When analysing [tempo](https://github.com/Amina-H1/spotify-project/blob/main/images/tempo1.png), the data tells us that median tempo is 115bpm. This bpm falls in the Allegro range (fast) most notably the pop genre fits this bpm rate. Looking at the data in a wider view, we see a lower quartile of 95bpm and an upper quartile of 136bpm. Showing an interquartile range of 40pbm. This shows there is a fairly wide tempo range within the most popular songs indicating tempo isn't a decisive indicator of popularity. Finally, the min (59bpm) and the max (186bpm) further iterate the previous argument as the bpm ranges from one extreme to the other.
+
+When analysing [energy](https://github.com/Amina-H1/spotify-project/blob/main/images/energy1.png), the data tells us that the median energy is 0.63. This energy level suggests that the majority of popular songs are slightly above average. Looking at the data in a wider view, we see a lower quartile of 0.52 and an upper quartile of 0.75. Showing an interquartile range of 0.23. This suggests that the majority of popular songs are those with a medium to high energy level. And so, songs with low energy levels tend to perform worse. However, the min (0.26) and the max (0.92) energy ratings show us that even if a song does have an extremely low energy rating, it can still perform well in popularity, and vice versa. The data shows one outlier at 0.11 bpm. This being Billie Eilish’s song, 'when the party's over'.
+
+When analysing [acousticness](https://github.com/Amina-H1/spotify-project/blob/main/images/acoust1.png), the data tells us that the median is 0.15, an upper quartile of 0.44, and a lower quartile of 0.04. This tells us that the majority of the most popular songs tend to be less acoustic, meaning they are more lyric heavy. It is important to note that the max value of acousticness lies at 0.98. This shows that whilst the majority of data points lie in the lower acoustic ranges. It is still possible for songs to be acoustic heavy and still be very popular.
+
+The relationship between [energy and tempo](https://github.com/Amina-H1/spotify-project/blob/main/images/energy_tempo.png) shows a minimal increase as illustrated by an r value of 0.28. The r squared value also shows a large distribution of data points from the regression line with a value of 0.08.
+
+The relationship between [energy and acousticness](https://github.com/Amina-H1/spotify-project/blob/main/images/energy_acoust.png) is that of a strong negative one, this is validated by an r value of -0.7. Therefore, generally the less acoustic a song is, the more energetic it is in the most popular songs.
+
+
+### Findings 4: Danceability & Valence 
+
+
+How is danceability and valence represented in the 100 most streamed songs? Both of these variables are created using Spotify’s own algorithm, defined as follows:
+
+Danceability - describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.
+
+Valence - A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
+
+In particular, I wanted to explore the relationship between the danceability and valence of a song, does a happy or more positive song mean that it more danceable?
+
+
+Summary Statistics 
+
+A [summary statistics table](https://github.com/Amina-H1/spotify-project/blob/main/images/summary.png) was created using the df.describe() function to get a feel of the shape of the data.
+
+Overall, it appears that the danceability value of a song is higher than its valence. Looking at the mean for example, danceability is 0.67 compared to 0.50 for valence. For both variables, mean and median are quite similar (danceability: mean: 0.67, median: 0.69, valence: mean: 0.50, median: 0.48), suggesting that the distribution of data is quite symmetrical.
+
+Visualising the Data
+
+A [histogram](https://github.com/Amina-H1/spotify-project/blob/main/images/dv_hist.png) can also explain the distribution of the two variables:
+As mentioned above, the similar mean and median shows a symmetrical distribution for each variable. Valence peaks around 0.4, whereas danceability peaks around 0.8. Valence appears to be normally distributed, albeit with slightly more data in the right tail than the left. Danceability has a one-tailed poisson distribution, skewed towards the higher end of the scale. This shows that the songs in the top 100 tend to be more danceable.
+
+A [boxplot](https://github.com/Amina-H1/spotify-project/blob/main/images/dv_boxplot.png) can describe the data even further. 
+The boxplots enforce the histogram’s findings that songs need to be at least slightly danceable to reach the top 100 in streams. Valence, on the other hand, is spread out across the board, suggesting that a popular song does not necessarily need to be positive.
+
+Correlation and Regression:
+Finally, to explain the relationship between the [danceability and valence](https://github.com/Amina-H1/spotify-project/blob/main/images/dv_scatter.png) further a scatter plot was created.
+
+As expected, as the danceability level rises, as too does the valence. A correlation of 0.49 is moderately positive, but not as strong as expected. In addition, the r-square value of 0.24 suggests that the regression line is, in fact, a weak fit against the distribution of the data. There are songs that appear to go against the earlier assumptions.
+
+
+Examples of Songs that fit the model poorly
+•	High Valence, Low Danceability: Shawn Mendes - Treat You Better (Danceability: 0.44, Valence: 0.75)
+•	High Danceability, Low Valence: Kendrick Lamar - HUMBLE. (Danceability: 0.91, Valence: 0.42)
+Examples of songs that fit the model well
+•	Low Valence, Low Danceability: Billie Eilish - when the party's over (Danceability: 0.37, Valence: 0.20)
+•	High Valence, High Danceability: XXXTENTACION - Moonlight (Danceability: 0.90, Valence: 0.71)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
