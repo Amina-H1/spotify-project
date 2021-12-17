@@ -1,3 +1,4 @@
+![](images/spotify%20100_readme.PNG)
 # Spotify Project
 ### A group project with the University of Birmingham Data Analytics Bootcamp (December 2021)
 
