@@ -1,0 +1,101 @@
+Rank,Song,Streams,Artist(s),Album,Date published,Ref.
+1,"""Shape of You""",2989,Ed Sheeran,÷,06-Jan-17,[11]
+2,"""Blinding Lights""",2673,The Weeknd,After Hours,29-Nov-19,[12]
+3,"""Dance Monkey""",2425,Tones and I,The Kids Are Coming and Welcome to the Madhouse,10-May-19,[13]
+4,"""Rockstar""",2312,Post Malone featuring 21 Savage,Beerbongs & Bentleys,15-Sep-17,[14]
+5,"""Someone You Loved""",2182,Lewis Capaldi,Breach and Divinely Uninspired to a Hellish Extent,08-Nov-18,[15]
+6,"""One Dance""",2181,Drake featuring Wizkid and Kyla,Views,05-Apr-16,[16]
+7,"""Closer""",2163,The Chainsmokers featuring Halsey,Collage,29-Jul-16,[17]
+8,"""Sunflower""",2113,Post Malone and Swae Lee,Spider-Man: Into the Spider-Verse and Hollywood's Bleeding,18-Oct-18,[14]
+9,"""Señorita""",2009,Shawn Mendes and Camila Cabello,Shawn Mendes and Romance,21-Jun-19,[18][19]
+10,"""Bad Guy""",1938,Billie Eilish,"When We All Fall Asleep, Where Do We Go?",29-Mar-19,[20]
+11,"""Perfect""",1914,Ed Sheeran,÷,03-Mar-17,[21]
+12,"""Believer""",1912,Imagine Dragons,Evolve,01-Feb-17,[22]
+13,"""Say You Won't Let Go""",1896,James Arthur,Back from the Edge,09-Sep-16,[23]
+14,"""Thinking Out Loud""",1896,Ed Sheeran,×,20-Jun-14,[11]
+15,"""God's Plan""",1852,Drake,Scorpion,19-Jan-18,[16]
+16,"""Lucid Dreams""",1822,Juice Wrld,Goodbye & Good Riddance,04-May-18,
+17,"""Photograph""",1749,Ed Sheeran,×,20-Jun-14,[21]
+18,"""Don't Start Now""",1722,Dua Lipa,Future Nostalgia,01-Nov-19,
+19,"""Sad!""",1721,XXXTentacion,?,01-Mar-18,[24]
+20,"""Starboy""",1710,The Weeknd featuring Daft Punk,Starboy,21-Sep-16,[12]
+21,"""Something Just Like This""",1690,The Chainsmokers and Coldplay,Memories...Do Not Open,22-Feb-17,[25]
+22,"""Love Yourself""",1685,Justin Bieber,Purpose,09-Nov-15,[26]
+23,"""Havana""",1685,Camila Cabello featuring Young Thug,Camila,03-Aug-17,[18]
+24,"""Shallow""",1673,Lady Gaga and Bradley Cooper,A Star Is Born,27-Sep-18,
+25,"""Bohemian Rhapsody""",1667,Queen,A Night at the Opera,31-Oct-75,
+26,"""All of Me""",1635,John Legend,Love in the Future,12-Aug-13,
+27,"""Lovely""",1624,Billie Eilish and Khalid,13 Reasons Why: Season 2 (Music from the Original TV Series),19-Apr-18,[20]
+28,"""Thunder""",1622,Imagine Dragons,Evolve,27-Apr-17,[22]
+29,"""7 Rings""",1612,Ariana Grande,"Thank U, Next",18-Jan-19,
+30,"""New Rules""",1607,Dua Lipa,Dua Lipa,02-Jun-17,
+31,"""Jocelyn Flores""",1602,XXXTentacion,17,25-Aug-17,[24]
+32,"""Take Me to Church""",1598,Hozier,Hozier,13-Sep-13,
+33,"""Goosebumps""",1597,Travis Scott featuring Kendrick Lamar,Birds in the Trap Sing McKnight,02-Sep-16,[27]
+34,"""Circles""",1597,Post Malone,Hollywood's Bleeding,30-Aug-19,[14]
+35,"""XO Tour Llif3""",1595,Lil Uzi Vert,Luv Is Rage 2,24-Mar-17,
+36,"""Happier""",1564,Marshmello and Bastille,Non-album single,17-Aug-18,
+37,"""Sicko Mode""",1560,Travis Scott featuring Drake,Astroworld,03-Aug-18,[27]
+38,"""Lean On""",1556,Major Lazer and DJ Snake featuring MØ,Peace Is the Mission and Major Lazer Essentials,02-Mar-15,
+39,"""Stressed Out""",1548,Twenty One Pilots,Blurryface,28-Apr-15,[28]
+40,"""Sorry""",1542,Justin Bieber,Purpose,22-Oct-15,
+41,"""Watermelon Sugar""",1539,Harry Styles,Fine Line,16-Nov-19,[29]
+42,"""Humble""",1531,Kendrick Lamar,Damn,30-Mar-17,[30]
+43,"""Better Now""",1512,Post Malone,Beerbongs & Bentleys,27-Apr-18,[14]
+44,"""Despacito (Remix)""",1497,Luis Fonsi and Daddy Yankee featuring Justin Bieber,Vida,17-Apr-17,
+45,"""Don't Let Me Down""",1495,The Chainsmokers featuring Daya,Collage,05-Feb-16,[25]
+46,"""Let Her Go""",1493,Passenger,All the Little Lights,24-Feb-12,
+47,"""Faded""",1489,Alan Walker,Different World,03-Dec-15,
+48,"""Let Me Love You""",1487,DJ Snake featuring Justin Bieber,Encore,05-Aug-16,
+49,"""Roses (Imanbek Remix)""",1478,Saint Jhn and Imanbek,While the World Was Burning,18-Sep-19,
+50,"""Congratulations""",1476,Post Malone featuring Quavo,Stoney,04-Nov-16,[14]
+51,"""I Took a Pill in Ibiza (Seeb Remix)""",1470,Mike Posner and Seeb,"At Night, Alone",14-Apr-15,
+52,"""Stay with Me""",1450,Sam Smith,In the Lonely Hour,14-Apr-14,
+53,"""Wake Me Up""",1449,Avicii featuring Aloe Blacc,TRUE,17-Jun-13,
+54,"""I Don't Care""",1445,Ed Sheeran and Justin Bieber,No.6 Collaborations Project,10-May-19,[31][26]
+55,"""Treat You Better""",1434,Shawn Mendes,Illuminate,03-Jun-16,[19]
+56,"""Thank U, Next""",1431,Ariana Grande,"Thank U, Next",03-Nov-18,[30]
+57,"""Uptown Funk""",1418,Mark Ronson featuring Bruno Mars,Uptown Special,10-Nov-14,
+58,"""Counting Stars""",1414,OneRepublic,Native,25-Mar-13,
+59,"""Without Me""",1413,Halsey,Manic,04-Oct-18,
+60,"""Too Good at Goodbyes""",1394,Sam Smith,The Thrill of It All,08-Sep-17,
+61,"""Riptide""",1391,Vance Joy,Dream Your Life Away,21-May-13,
+62,"""Can't Hold Us""",1383,Macklemore & Ryan Lewis featuring Ray Dalton,The Heist,16-Aug-11,
+63,"""The Hills""",1382,The Weeknd,Beauty Behind the Madness,27-May-15,[12]
+64,"""Unforgettable""",1382,French Montana featuring Swae Lee,Jungle Rules,07-Apr-17,
+65,"""The Box""",1376,Roddy Ricch,Please Excuse Me for Being Antisocial,06-Dec-19,
+66,"""Stitches""",1373,Shawn Mendes,Handwritten,14-Apr-15,
+67,"""Cheap Thrills""",1365,Sia,This Is Acting,29-Jan-16,
+68,"""Girls Like You""",1364,Maroon 5 featuring Cardi B,Red Pill Blues,30-May-18,
+69,"""Moonlight""",1349,XXXTentacion,?,16-Mar-18,[24]
+70,"""Memories""",1336,Maroon 5,Jordi (Deluxe),20-Sep-19,
+71,"""7 Years""",1326,Lukas Graham,Lukas Graham,16-Jun-15,
+72,"""Despacito""",1325,Luis Fonsi featuring Daddy Yankee,Vida,12-Jan-17,
+73,"""That's What I Like""",1320,Bruno Mars,24K Magic,18-Nov-16,
+74,"""Mood""",1312,24kGoldn featuring Iann Dior,El Dorado,24-Jul-20,
+75,"""Rockstar""",1309,DaBaby featuring Roddy Ricch,Blame It on Baby,17-Apr-20,
+76,"""I Like It""",1308,"Cardi B, Bad Bunny and J Balvin",Invasion of Privacy,06-Apr-18,
+77,"""Demons""",1305,Imagine Dragons,Night Visions,04-Sep-12,[22]
+78,"""Can't Stop the Feeling!""",1305,Justin Timberlake,Trolls: Original Motion Picture Soundtrack,06-May-16,
+79,"""See You Again""",1302,Wiz Khalifa featuring Charlie Puth,Furious 7: Original Motion Picture Soundtrack,10-Mar-15,
+80,"""I Like Me Better""",1301,Lauv,I Met You When I Was 18 (The Playlist),19-May-17,
+81,"""I Fall Apart""",1288,Post Malone,Stoney,09-Dec-16,[14]
+82,"""Heathens""",1287,Twenty One Pilots,Suicide Squad: The Album,16-Jun-16,
+83,"""Wonderwall""",1285,Oasis,(What's the Story) Morning Glory?,30-Oct-95,
+84,"""Mr. Brightside""",1285,The Killers,Hot Fuss,07-Jun-04,[32]
+85,"""One Kiss""",1284,Calvin Harris and Dua Lipa,Dua Lipa,06-Apr-18,
+86,"""Youngblood""",1282,5 Seconds Of Summer,Youngblood,12-Apr-18,
+87,"""I'm Yours""",1271,Jason Mraz,"We Sing, We Dance, We Steal Things",12-Feb-08,
+88,"""Sugar""",1268,Maroon 5,V,29-Aug-14,
+89,"""Radioactive""",1260,Imagine Dragons,Night Visions,04-Sep-12,[22]
+90,"""When the Party's Over""",1257,Billie Eilish,"When We All Fall Asleep, Where Do We Go?",16-Oct-18,[20]
+91,"""Old Town Road (Remix)""",1257,Lil Nas X and Billy Ray Cyrus,7,05-Apr-19,
+92,"""Lose Yourself""",1256,Eminem,8 Mile: Original Motion Picture Soundtrack,18-Jul-02,
+93,"""What Do You Mean?""",1251,Justin Bieber,Purpose,28-Aug-15,
+94,"""Attention""",1250,Charlie Puth,Voicenotes,21-Apr-17,
+95,"""Psycho""",1247,Post Malone featuring Ty Dolla Sign,Beerbongs & Bentleys,23-Feb-18,[14]
+96,"""Eastside""",1247,"Benny Blanco, Halsey and Khalid",Friends Keep Secrets,12-Jul-18,
+97,"""We Don't Talk Anymore""",1243,Charlie Puth featuring Selena Gomez,Nine Track Mind,29-Jan-16,[33]
+98,"""Cold Water""",1238,Major Lazer featuring Justin Bieber and MØ,Major Lazer Essentials,22-Jul-16,
+99,"""Cheerleader (Felix Jaehn Remix)""",1235,Omi and Felix Jaehn,Me 4 U,19-May-14,
+100,"""Can't Feel My Face""",1229,The Weeknd,Beauty Behind the Madness,08-Jun-15,
