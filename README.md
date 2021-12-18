@@ -128,6 +128,20 @@ Examples of songs that fit the model well
 •	Low Valence, Low Danceability: Billie Eilish - when the party's over (Danceability: 0.37, Valence: 0.20)
 •	High Valence, High Danceability: XXXTENTACION - Moonlight (Danceability: 0.90, Valence: 0.71)
 
+### Conclusion
+
+The API was rather limited in terms of its practical use for data analytics. When extracting songs from a playlist you are capped at 100 songs, removing that ability to analyse large quantities of data, reducing validity. The other option wasto extract random songs without a cap, however this left us to a random and small chance of using a good quality dataset. One major issue was that they didn’t have a live play count for the individual 
+songs, meaning we had to pull this data from a less reliable source (Wikipedia), again damaging the validity of the analysis.
+
+Whilst, Spotify allows for plenty of different analysis measures, as mentioned in this project, we were left to the Spotify algorithms interpretation of how these measures were calculated. Measures such as ‘acousticness’ are very open to interpretation and are difficult to pin a precise value to.
+We would have liked to delve into the artists other songs to see how their most popular songs compared to their less popular songs to see if there was any 
+correlation.
+
+Finally, we must understand that music itself is interpretive. Statistics alone 
+aren’t able to justify why a song is so popular. There are external measures such 
+as the emotional attachment people hold to an artist and similar phenomenon’s 
+that aren’t available to pull from an API
+
 
 
 
